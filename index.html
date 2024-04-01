@@ -1,195 +1,392 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-<div class="wrapper">
-    <nav>
-        <div class="container flex between items-center py-2">
-          <h1>Mediplus</h1>
-          <ul class="flex items-center gap-2">
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">about</a></li>
-            <li><a href="#services">services</a></li>
-            <li><a href="#contact">Contact</a></li>
-          </ul>
-        </div>
-      </nav>
-      <main>
-<!-- Landing page started -->
-<div class="container flex between gap-1 h-screen items-center">
-    <div class="left flex flex-col justify-center">
-      <h1 class="heading-1 bold" >Your Loved Ones Deserve Only The Best.</h1>
-      <p>
-        In today's fast-paced world, it is crucial to prioritize our health
-        and well-being. Our society is the cornerstone of our collective
-        strength, and taking care of our physical and mental health is
-        essential for the overall progress and happiness of everyone.
-        Investing in our health means not only leading an active lifestyle
-        but also making informed choices about our nutrition, sleep, and
-        stress management. It is important to cultivate a culture of
-        preventive care, emphasizing regular check-ups, screenings, and
-        maintaining a healthy work-life balance.
-      </p>
-      <div class="btns-conteiner flex items-center gap-2">
-        <button class="filled">Book an appointment</button>
-        <button class="outlined">Register now <span class="material-symbols-outlined">
-            open_in_new
-            </span></button>
-      </div>
-    </div>
-    <div class="right">
-      <img src="./images/nurse.png" alt="nurse" draggable="false" />
-    </div>
-  </div>
-<!-- Landing page ended -->
-<!-- Cards page ended -->
-<div class="container flex gap-1 justify-center items-center flex-col">
+</head>
 
-    <h2>WHO Certified Hospital</h2>
-    <p class="subtitle -mt-1">We care your health</p>
-    <div class="cards-container">
-        <div class="card">
-            <h2>Experienced Qualified Specialists</h2>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla iure consectetur illum dolorem exercitationem, ducimus hic tempore harum minus necessitatibus veritatis, quod iste voluptatibus reiciendis vero corporis minima quae quia?
-            </p>
-        </div>
-        <div class="card">
-            <h2>Experienced Qualified Specialists</h2>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla iure consectetur illum dolorem exercitationem, ducimus hic tempore harum minus necessitatibus veritatis, quod iste voluptatibus reiciendis vero corporis minima quae quia?
-            </p>
-        </div>
-        <div class="card">
-            <h2>Experienced Qualified Specialists</h2>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla iure consectetur illum dolorem exercitationem, ducimus hic tempore harum minus necessitatibus veritatis, quod iste voluptatibus reiciendis vero corporis minima quae quia?
-            </p>
-        </div>
-    </div>
-</div>
-<div class="container text-center">
-    <h2 class="text-center">Dedicated doctors team</h2>
-    <p class="subtitle text-center">Best Medical Staff in fields
-    </p>
-    <span class="material-symbols-outlined symbol">
-        cardiology
-        </span>
+<body>
+    <div class="wrapper">
+        <nav>
+            <div class="container flex between items-center py-2">
+                <h1>Mediplus</h1>
+                <ul class="flex items-center gap-2">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">about</a></li>
+                    <li><a href="#services">services</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <main>
+            <!-- Landing page started -->
+            <div class="container flex between gap-1 h-screen items-center" id="home">
+                <div class="left flex flex-col justify-center">
+                    <h1 class="heading-1 bold">Your Loved Ones Deserve Only The Best.</h1>
+                    <p>
+                        In today's fast-paced world, it is crucial to prioritize our health
+                        and well-being. Our society is the cornerstone of our collective
+                        strength, and taking care of our physical and mental health is
+                        essential for the overall progress and happiness of everyone.
+                        Investing in our health means not only leading an active lifestyle
+                        but also making informed choices about our nutrition, sleep, and
+                        stress management. It is important to cultivate a culture of
+                        preventive care, emphasizing regular check-ups, screenings, and
+                        maintaining a healthy work-life balance.
+                    </p>
+                    <div class="btns-conteiner flex items-center gap-2">
+                        <button class="filled"><a href="#book">Book an appointment</a></button>
+                        <button class="outlined">Register now <span class="material-symbols-outlined">
+                                open_in_new
+                            </span></button>
+                    </div>
+                </div>
+                <div class="right">
+                    <img src="./images/nurse.png" alt="nurse" draggable="false" />
+                </div>
+            </div>
+            <!-- Landing page ended -->
+            <!-- Cards page ended -->
+            <div class="container flex gap-1 justify-center items-center flex-col">
 
-        <div class="doctors-cards-container">
-            <div class="card-row">
-                <div class="doctor-card">
-                    <div class="card-top">
-                        <img src="./images/doctors/Doctor1.jpg" alt="doctor1">
+                <h2>WHO Certified Hospital</h2>
+                <p class="subtitle -mt-1">We care your health</p>
+                <div class="cards-container">
+                    <div class="card">
+                        <h2>Experienced Qualified Specialists</h2>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla iure consectetur illum
+                            dolorem exercitationem, ducimus hic tempore harum minus necessitatibus veritatis, quod iste
+                            voluptatibus reiciendis vero corporis minima quae quia?
+                        </p>
                     </div>
-                    <div class="card-bottom">
-                        <h3>Doctor name</h2>
-                            <p>
-                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corporis, aliquid! Tempora quis ab magnam odit!
-                            </p>
+                    <div class="card">
+                        <h2>Experienced Qualified Specialists</h2>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla iure consectetur illum
+                            dolorem exercitationem, ducimus hic tempore harum minus necessitatibus veritatis, quod iste
+                            voluptatibus reiciendis vero corporis minima quae quia?
+                        </p>
                     </div>
-                </div>
-                <div class="doctor-card">
-                    <div class="card-top">
-                        <img src="./images/doctors/Doctor2.jpg" alt="doctor1">
-                    </div>
-                    <div class="card-bottom">
-                        <h3>Doctor name</h2>
-                            <p>
-                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corporis, aliquid! Tempora quis ab magnam odit!
-                            </p>
-                    </div>
-                </div>
-                <div class="doctor-card">
-                    <div class="card-top">
-                        <img src="./images/doctors/Doctor3.jpg" alt="doctor1">
-                    </div>
-                    <div class="card-bottom">
-                        <h3>Doctor name</h2>
-                            <p>
-                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corporis, aliquid! Tempora quis ab magnam odit!
-                            </p>
-                    </div>
-                </div>
-                <div class="doctor-card">
-                    <div class="card-top">
-                        <img src="./images/doctors/Doctor4.jpg" alt="doctor1">
-                    </div>
-                    <div class="card-bottom">
-                        <h3>Doctor name</h2>
-                            <p>
-                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corporis, aliquid! Tempora quis ab magnam odit!
-                            </p>
+                    <div class="card">
+                        <h2>Experienced Qualified Specialists</h2>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla iure consectetur illum
+                            dolorem exercitationem, ducimus hic tempore harum minus necessitatibus veritatis, quod iste
+                            voluptatibus reiciendis vero corporis minima quae quia?
+                        </p>
                     </div>
                 </div>
             </div>
-            <div class="card-row">
-                <div class="doctor-card">
-                    <div class="card-top">
-                        <img src="./images/doctors/Doctor5.jpg" alt="doctor1">
+            <div class="container text-center mb-5">
+                <h2 class="text-center">Dedicated doctors team</h2>
+                <p class="subtitle text-center">Best Medical Staff in fields
+                </p>
+                <span class="material-symbols-outlined symbol">
+                    cardiology
+                </span>
+
+                <div class="doctors-cards-container">
+                    <div class="card-row">
+                        <div class="doctor-card">
+                            <div class="card-top">
+                                <img src="./images/doctors/Doctor1.jpg" alt="doctor1">
+                            </div>
+                            <div class="card-bottom">
+                                <h3>Doctor name</h2>
+                                    <p>
+                                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corporis, aliquid!
+                                        Tempora quis ab magnam odit!
+                                    </p>
+                            </div>
+                        </div>
+                        <div class="doctor-card">
+                            <div class="card-top">
+                                <img src="./images/doctors/Doctor2.jpg" alt="doctor1">
+                            </div>
+                            <div class="card-bottom">
+                                <h3>Doctor name</h2>
+                                    <p>
+                                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corporis, aliquid!
+                                        Tempora quis ab magnam odit!
+                                    </p>
+                            </div>
+                        </div>
+                        <div class="doctor-card">
+                            <div class="card-top">
+                                <img src="./images/doctors/Doctor3.jpg" alt="doctor1">
+                            </div>
+                            <div class="card-bottom">
+                                <h3>Doctor name</h2>
+                                    <p>
+                                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corporis, aliquid!
+                                        Tempora quis ab magnam odit!
+                                    </p>
+                            </div>
+                        </div>
+                        <div class="doctor-card">
+                            <div class="card-top">
+                                <img src="./images/doctors/Doctor4.jpg" alt="doctor1">
+                            </div>
+                            <div class="card-bottom">
+                                <h3>Doctor name</h2>
+                                    <p>
+                                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corporis, aliquid!
+                                        Tempora quis ab magnam odit!
+                                    </p>
+                            </div>
+                        </div>
                     </div>
-                    <div class="card-bottom">
-                        <h3>Doctor name</h2>
-                            <p>
-                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corporis, aliquid! Tempora quis ab magnam odit!
-                            </p>
+                    <div class="card-row">
+                        <div class="doctor-card">
+                            <div class="card-top">
+                                <img src="./images/doctors/Doctor5.jpg" alt="doctor1">
+                            </div>
+                            <div class="card-bottom">
+                                <h3>Doctor name</h2>
+                                    <p>
+                                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corporis, aliquid!
+                                        Tempora quis ab magnam odit!
+                                    </p>
+                            </div>
+                        </div>
+                        <div class="doctor-card">
+                            <div class="card-top">
+                                <img src="./images/doctors/Doctor6.jpg" alt="doctor1">
+                            </div>
+                            <div class="card-bottom">
+                                <h3>Doctor name</h2>
+                                    <p>
+                                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corporis, aliquid!
+                                        Tempora quis ab magnam odit!
+                                    </p>
+                            </div>
+                        </div>
+                        <div class="doctor-card">
+                            <div class="card-top">
+                                <img src="./images/doctors/Doctor7.jpg" alt="doctor1">
+                            </div>
+                            <div class="card-bottom">
+                                <h3>Doctor name</h2>
+                                    <p>
+                                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corporis, aliquid!
+                                        Tempora quis ab magnam odit!
+                                    </p>
+                            </div>
+                        </div>
+                        <div class="doctor-card">
+                            <div class="card-top">
+                                <img src="./images/doctors/Doctor8.jpg" alt="doctor1">
+                            </div>
+                            <div class="card-bottom">
+                                <h3>Doctor name</h2>
+                                    <p>
+                                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corporis, aliquid!
+                                        Tempora quis ab magnam odit!
+                                    </p>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="doctor-card">
-                    <div class="card-top">
-                        <img src="./images/doctors/Doctor6.jpg" alt="doctor1">
+
+            </div>
+
+            <div class="container mt-3 py-3 mb-5" id="about">
+                <h2 class="text-center mt-3">Know about us</h2>
+                <p class="subtitle text-center">What is MEDIPLUS </p>
+                <span class="material-symbols-outlined symbol text-center w-full mt-1">
+                    help
+                </span>
+                <div class="flex gap-3 mt-3 mb-5">
+                    <div class="left">
+                        <i>Welcome to the website of MEDIPLUS, your trusted source for healthcare in Jaipur,
+                            Maharashtra. We are a team of dedicated physicians, nurses, and other healthcare
+                            professionals who are committed to providing our patients with the highest quality care. We
+                            offer a wide range of services, including primary care, specialty care, surgery, and
+                            diagnostic testing. We are also home to a number of specialized programs, such as our cancer
+                            center, heart institute, and women's health center. Our mission is to provide our patients
+                            with the best possible care, regardless of their abilityto pay. We believe that everyone
+                            deserves access to quality healthcare, and we are committed to making that happen. We have
+                            been providing healthcare in [City, State] for over [number] years, and we are proud of our
+                            long history of service. We are a community-based hospital, and we are committed to meeting
+                            the needs of our patients and our community. We are constantly investing in our facilities
+                            and our staff to ensure that we are providing the best possible care. We are also committed
+                            to research and innovation, and we are always looking for new ways to improve the quality of
+                            our care. We believe that healthcare is a team effort, and we are proud of the relationships
+                            we have built with our patients, our referring physicians, and our community partners. We
+                            are committed to working together to provide the best possible care for everyone.
+
+                            We are always looking for ways to improve our services, and we welcome your feedback. Please
+                            feel free to contact us if you have any questions or suggestions. We are grateful for the
+                            trust that our patients have placed in us, and we are committed to providing them with the
+                            best possible care. Thank you for choosing MEDPLUS CIVIl HOSPITAL, MAHARASHTRA. We are proud
+                            of our long history of service, and we are committed to continuing to provide our patients
+                            with the highest quality care for many years to come. We invite you to learn more about our
+                            services and our team by visiting our website or calling us today. Thank you for choosing
+                            MEDIPLUS. We look forward to serving you</i>
                     </div>
-                    <div class="card-bottom">
-                        <h3>Doctor name</h2>
-                            <p>
-                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corporis, aliquid! Tempora quis ab magnam odit!
-                            </p>
-                    </div>
-                </div>
-                <div class="doctor-card">
-                    <div class="card-top">
-                        <img src="./images/doctors/Doctor7.jpg" alt="doctor1">
-                    </div>
-                    <div class="card-bottom">
-                        <h3>Doctor name</h2>
-                            <p>
-                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corporis, aliquid! Tempora quis ab magnam odit!
-                            </p>
-                    </div>
-                </div>
-                <div class="doctor-card">
-                    <div class="card-top">
-                        <img src="./images/doctors/Doctor8.jpg" alt="doctor1">
-                    </div>
-                    <div class="card-bottom">
-                        <h3>Doctor name</h2>
-                            <p>
-                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corporis, aliquid! Tempora quis ab magnam odit!
-                            </p>
+                    <div class="right border flex justify-center items-center backImg">
+                        <img src="./images/Back2.jpg" alt="background" draggable="false">
                     </div>
                 </div>
             </div>
-        </div>
+            <!-- form booking section  -->
+            <div class="container mt-3 py-3 mb-5" id="book">
+                <h2 class="text-center">Book an appointment</h2>
+                <p class="subtitle text-center">Stay assured of a slot </p>
+                <span class="material-symbols-outlined text-center w-full mt-1 symbol">
+                    assignment
+                </span>
+                <form action="#" class="mt-3">
+                    <input type="text" placeholder="Enter patient name">
+                    <input type="text" placeholder="Enter guardian name">
+                    <input type="text" placeholder="Enter desease name">
+                    <input type="text" placeholder="Enter">
+                    <input type="text" placeholder="Enter">
 
-</div>
+                    <input type="text" placeholder="Enter">
+                    <input type="text" placeholder="Enter">
+                    <div class="flex between input-container items-center">
+                        <div class="input">
+                            <input type="radio" name="gender" id="gender" value="male">
+                            <label for="gender">Male</label>
+                        </div>
+                        <div class="input">
+                            <input type="radio" name="gender" id="gender" value="female">
+                            <label for="gender">Female</label>
+                        </div>
+                        <div class="input">
+                            <input type="radio" name="gender" id="gender" value="other">
+                            <label for="gender">Other</label>
+                        </div>
+                    </div>
+                    <input type="text" placeholder="Enter">
+                    <input type="text" placeholder="Enter">
+                    <div class="uploader">
+                        UPLOAD PATIENTS PHOTO
+                    </div>
+                    <div class="uploader">
+                        UPLOAD PRESCRIPTION
+                    </div>
+                    <div class="blank"></div>
+                    <div class="form-btns flex gap-1 w-full mt-3">
+                        <button class="filled text-center">
+                            <p class="text-center w-full">Submit</p>
+                        </button>
+                        <button class="outlined text-center">
+                            <p class="text-center w-full">Cancel</p>
+                        </button>
+                    </div>
+                </form>
 
+            </div>
+            <!-- services section -->
+            <div class="container mt-3 py-3" id="services">
+                <h2 class="text-center mt-3">Services we provide</h2>
+                <p class="subtitle text-center">We do our best </p>
+                <span class="material-symbols-outlined text-center w-full mt-1 symbol mb-3">
+                    volunteer_activism
+                </span>
+                <div class="service_cards_wrapper mt-3 mb-3">
+                    <div class="service-card text-center">
+                        <div class="service_card-icon">
+                            <span class="material-symbols-outlined">
+                                local_shipping
+                            </span>
+                        </div>
+                        <h2>24x7 Ambulance</h2>
+                        <p>
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Omnis, consequatur laborum dolor
+                            nostrum dolorem odit modi asperiores dignissimos consectetur fugiat accusantium molestias
+                            ratione cumque explicabo fugit, ducimus necessitatibus nesciunt eos?
+                        </p>
+                    </div>
+                    <div class="service-card text-center">
+                        <div class="service_card-icon">
+                            <span class="material-symbols-outlined">
+                                local_shipping
+                            </span>
+                        </div>
+                        <h2>24x7 Ambulance</h2>
+                        <p>
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Omnis, consequatur laborum dolor
+                            nostrum dolorem odit modi asperiores dignissimos consectetur fugiat accusantium molestias
+                            ratione cumque explicabo fugit, ducimus necessitatibus nesciunt eos?
+                        </p>
+                    </div>
+                    <div class="service-card text-center">
+                        <div class="service_card-icon">
+                            <span class="material-symbols-outlined">
+                                local_shipping
+                            </span>
+                        </div>
+                        <h2>24x7 Ambulance</h2>
+                        <p>
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Omnis, consequatur laborum dolor
+                            nostrum dolorem odit modi asperiores dignissimos consectetur fugiat accusantium molestias
+                            ratione cumque explicabo fugit, ducimus necessitatibus nesciunt eos?
+                        </p>
+                    </div>
+                    <div class="service-card text-center">
+                        <div class="service_card-icon">
+                            <span class="material-symbols-outlined">
+                                local_shipping
+                            </span>
+                        </div>
+                        <h2>24x7 Ambulance</h2>
+                        <p>
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Omnis, consequatur laborum dolor
+                            nostrum dolorem odit modi asperiores dignissimos consectetur fugiat accusantium molestias
+                            ratione cumque explicabo fugit, ducimus necessitatibus nesciunt eos?
+                        </p>
+                    </div>
+                    <div class="service-card text-center">
+                        <div class="service_card-icon">
+                            <span class="material-symbols-outlined">
+                                local_shipping
+                            </span>
+                        </div>
+                        <h2>24x7 Ambulance</h2>
+                        <p>
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Omnis, consequatur laborum dolor
+                            nostrum dolorem odit modi asperiores dignissimos consectetur fugiat accusantium molestias
+                            ratione cumque explicabo fugit, ducimus necessitatibus nesciunt eos?
+                        </p>
+                    </div>
+                    <div class="service-card text-center">
+                        <div class="service_card-icon">
+                            <span class="material-symbols-outlined">
+                                local_shipping
+                            </span>
+                        </div>
+                        <h2>24x7 Ambulance</h2>
+                        <p>
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Omnis, consequatur laborum dolor
+                            nostrum dolorem odit modi asperiores dignissimos consectetur fugiat accusantium molestias
+                            ratione cumque explicabo fugit, ducimus necessitatibus nesciunt eos?
+                        </p>
+                    </div>
+                </div>
+            </div>
 
-      </main>
-      <footer>
+    </div>
+
+    </main>
+    <footer>
         <div class="container"></div>
-      </footer>
-</div>
-  </body>
-  <script src="./main.js"></script>
-  <script>
-    document.querySelectorAll("img").forEach(img=>{
-        img.setAttribute('draggable',false)
+    </footer>
+    </div>
+</body>
+<script src="./main.js"></script>
+<script>
+    document.querySelectorAll("img").forEach(img => {
+        img.setAttribute('draggable', false)
     })
-  </script>
+</script>
+
 </html>
